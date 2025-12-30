@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { AuthProvider } from "@/hooks/useAuth";
+import { SpeedInsightsComponent } from "@/components/SpeedInsights";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -28,6 +29,7 @@ const App = () => (
           <AuthProvider>
             <Toaster />
             <Sonner />
+            <SpeedInsightsComponent />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
