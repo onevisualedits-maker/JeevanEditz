@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { AuthProvider } from "@/hooks/useAuth";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -29,19 +30,19 @@ const App = () => (
             <Toaster />
             <Sonner />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/testimonials" element={<Testimonials />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/auth" element={<Auth />} />
-              <Route path="/admin" element={<Dashboard />} />
-              <Route path="/admin/portfolio" element={<PortfolioAdmin />} />
-              <Route path="/admin/testimonials" element={<TestimonialsAdmin />} />
-              <Route path="/admin/services" element={<ServicesAdmin />} />
+              <Route path="/" element={<><Home /><SpeedInsights /></>} />
+              <Route path="/about" element={<><About /><SpeedInsights /></>} />
+              <Route path="/services" element={<><Services /><SpeedInsights /></>} />
+              <Route path="/portfolio" element={<><Portfolio /><SpeedInsights /></>} />
+              <Route path="/testimonials" element={<><Testimonials /><SpeedInsights /></>} />
+              <Route path="/contact" element={<><Contact /><SpeedInsights /></>} />
+              <Route path="/auth" element={<><Auth /><SpeedInsights /></>} />
+              <Route path="/admin" element={<><Dashboard /><SpeedInsights /></>} />
+              <Route path="/admin/portfolio" element={<><PortfolioAdmin /><SpeedInsights /></>} />
+              <Route path="/admin/testimonials" element={<><TestimonialsAdmin /><SpeedInsights /></>} />
+              <Route path="/admin/services" element={<><ServicesAdmin /><SpeedInsights /></>} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
+              <Route path="*" element={<><NotFound /><SpeedInsights /></>} />
             </Routes>
           </AuthProvider>
         </BrowserRouter>
