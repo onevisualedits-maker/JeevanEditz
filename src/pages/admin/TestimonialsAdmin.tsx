@@ -123,7 +123,7 @@ const TestimonialsAdmin = () => {
   return (
     <AdminLayout>
       <Helmet>
-        <title>Testimonials Management | VE Admin</title>
+        <title>Testimonials Management | JeevanEditz Admin</title>
       </Helmet>
 
       <div className="space-y-6">

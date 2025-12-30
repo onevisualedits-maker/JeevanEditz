@@ -42,7 +42,7 @@ export function AdminSidebar() {
       <div className="p-4 border-b border-border/50">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">VE</span>
+            <span className="text-primary-foreground font-bold text-sm">JE</span>
           </div>
           {!collapsed && <span className="font-semibold text-foreground">Admin Panel</span>}
         </div>

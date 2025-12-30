@@ -23,7 +23,7 @@ const Logo = ({ size = 'md', animated = false }: LogoProps) => {
     >
       <img 
         src={veLogo} 
-        alt="VE Edit Logo" 
+        alt="JeevanEditz Logo"
         className="w-full h-full object-contain drop-shadow-[0_0_15px_hsl(var(--primary)/0.6)]
           transition-all duration-500 ease-out
           group-hover:drop-shadow-[0_0_25px_hsl(var(--primary)/0.8)]

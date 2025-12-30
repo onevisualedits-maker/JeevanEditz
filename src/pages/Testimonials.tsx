@@ -9,8 +9,8 @@ const TestimonialsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Testimonials | VE Edit</title>
-        <meta name="description" content="Read client testimonials and success stories from VE Edit's satisfied customers. See how we've helped brands and creators achieve their video editing goals." />
+        <title>Testimonials | JeevanEditz</title>
+        <meta name="description" content="Read client testimonials and success stories from JeevanEditz's satisfied customers. See how we've helped brands and creators achieve their video editing goals." />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden">

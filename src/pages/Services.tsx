@@ -9,8 +9,8 @@ const ServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Services | VE Edit</title>
-        <meta name="description" content="Comprehensive video editing services from VE Edit - Video editing, motion graphics, cinematic reels, YouTube content, and brand videos." />
+        <title>Services | JeevanEditz</title>
+        <meta name="description" content="Comprehensive video editing services from JeevanEditz - Video editing, motion graphics, cinematic reels, YouTube content, and brand videos." />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden">

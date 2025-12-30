@@ -47,7 +47,7 @@ const Dashboard = () => {
   return (
     <AdminLayout>
       <Helmet>
-        <title>Dashboard | VE Admin</title>
+        <title>Dashboard | JeevanEditz Admin</title>
       </Helmet>
 
       <div className="space-y-6">

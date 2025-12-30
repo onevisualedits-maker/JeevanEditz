@@ -120,7 +120,7 @@ const PortfolioAdmin = () => {
   return (
     <AdminLayout>
       <Helmet>
-        <title>Portfolio Management | VE Admin</title>
+        <title>Portfolio Management | JeevanEditz Admin</title>
       </Helmet>
 
       <div className="space-y-6">

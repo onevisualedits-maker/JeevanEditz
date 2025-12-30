@@ -9,8 +9,8 @@ const PortfolioPage = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio | VE Edit</title>
-        <meta name="description" content="Explore VE Edit's portfolio of cinematic video projects, motion graphics, and brand films." />
+        <title>Portfolio | JeevanEditz</title>
+        <meta name="description" content="Explore JeevanEditz's portfolio of cinematic video projects, motion graphics, and brand films." />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden">

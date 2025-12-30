@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3">
           <Logo size="sm" />
           <span className="font-display font-bold text-xl text-foreground">
-            Visual <span className="text-primary">Edit</span>
+            Jeevan<span className="text-primary">Editz</span>
           </span>
         </Link>
 

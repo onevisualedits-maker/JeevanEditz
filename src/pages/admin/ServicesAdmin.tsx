@@ -124,7 +124,7 @@ const ServicesAdmin = () => {
   return (
     <AdminLayout>
       <Helmet>
-        <title>Services Management | VE Admin</title>
+        <title>Services Management | JeevanEditz Admin</title>
       </Helmet>
 
       <div className="space-y-6">

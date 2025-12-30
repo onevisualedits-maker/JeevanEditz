@@ -9,8 +9,8 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About | VE Edit</title>
-        <meta name="description" content="Learn about VE Edit - Professional video editing with over 5 years of experience in cinematic storytelling and motion graphics." />
+        <title>About | JeevanEditz</title>
+        <meta name="description" content="Learn about JeevanEditz - Professional video editing with over 5 years of experience in cinematic storytelling and motion graphics." />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden">

@@ -86,7 +86,7 @@ const Auth = () => {
   return (
     <>
       <Helmet>
-        <title>{isLogin ? 'Login' : 'Sign Up'} | VE Admin</title>
+        <title>{isLogin ? 'Login' : 'Sign Up'} | JeevanEditz Admin</title>
         <meta name="description" content="Admin authentication portal" />
       </Helmet>
       

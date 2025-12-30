@@ -14,19 +14,19 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>VE Edit | Professional Video Editing Studio</title>
-        <meta name="description" content="VE Edit is a premium video editing studio specializing in cinematic edits, motion graphics, and brand storytelling. Transform your vision into stunning visual content." />
+        <title>JeevanEditz | Professional Video Editing Studio</title>
+        <meta name="description" content="JeevanEditz is a premium video editing studio specializing in cinematic edits, motion graphics, and brand storytelling. Transform your vision into stunning visual content." />
         <meta name="keywords" content="video editing, motion graphics, cinematic editing, brand videos, YouTube editing, social media content" />
-        <link rel="canonical" href="https://veedit.com" />
+        <link rel="canonical" href="https://jeevaneditz.space" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="VE Edit | Professional Video Editing Studio" />
+        <meta property="og:title" content="JeevanEditz | Professional Video Editing Studio" />
         <meta property="og:description" content="Premium video editing, motion graphics, and cinematic storytelling for brands and creators." />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="VE Edit | Professional Video Editing Studio" />
+        <meta name="twitter:title" content="JeevanEditz | Professional Video Editing Studio" />
         <meta name="twitter:description" content="Premium video editing, motion graphics, and cinematic storytelling." />
       </Helmet>
 

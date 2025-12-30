@@ -9,8 +9,8 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | VE Edit</title>
-        <meta name="description" content="Get in touch with VE Edit to discuss your video editing project. Professional video editing services available worldwide." />
+        <title>Contact | JeevanEditz</title>
+        <meta name="description" content="Get in touch with JeevanEditz to discuss your video editing project. Professional video editing services available worldwide." />
       </Helmet>
 
       <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
